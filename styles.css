@@ -1,0 +1,65 @@
+#title {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+.operation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: gray;
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: black;
+}
+
+#calculatorSize {
+    width: 280px;
+    height: 380px;
+    background-color: rgb(61, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+.solve {
+    background-color: orange;
+}
+
+.bigButton {
+    min-width: 120px;
+}
+
+.top {
+    background-color: blue;
+}
+
+#border {
+    border: 10px solid black;
+}
+
+#background {
+    background-color: rgb(84, 175, 255);
+}
+
+#displayNumbers {
+    background-color: rgb(201, 201, 201);
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    font-size: 30px;
+    font-weight: bold;
+}
